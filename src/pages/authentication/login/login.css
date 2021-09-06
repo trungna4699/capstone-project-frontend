@@ -1,0 +1,107 @@
+button {
+    outline: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+button:active {
+    opacity: 5;
+}
+
+.authenticationWrapper {
+    background-image: url(../../../components/images/speckio-background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer {
+    margin: 70px 0px;
+    width: 360px;
+    background-color: white;
+    border-radius: 1px;
+    box-shadow: 0 0 30px rgba( 0,0,0,1 );
+}
+
+#loginTitle {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.loginForm{
+    display: inline-block;
+    width: 70%;
+}
+
+#loginInputLabel {
+    width: 60%;
+    font-size: 18px;
+    text-align: left;
+}
+
+.error {
+    text-align: left;
+    color: red;
+    font-size: 14px;
+}
+
+.form-check {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.form-check-label {
+    margin-left: 10px;
+}
+
+#rememberCheck {
+    width: 18px;
+    height: 18px;
+}
+
+#logIn {
+    margin: 10px 0px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+}
+
+#logIn:focus {
+    outline: none; 
+}
+
+.linkContainer {
+    margin-top: 20px;
+}
+
+.linkBtn{
+    transition: 0.3s;
+}
+
+.linkBtn:hover {
+    opacity: 0.7;
+}
+
+.linkBtn:active {
+    opacity: 5;
+}
+
+#registerBtn{
+    border-right: 1px solid black;
+    padding-right: 5px;
+}
+
+#lostpasswordBtn{
+    margin-left: 5px;
+}
+
+.backToHomeContainer{
+    margin-top: 20px;
+}

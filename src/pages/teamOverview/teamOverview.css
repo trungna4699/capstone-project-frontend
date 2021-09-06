@@ -1,0 +1,61 @@
+.overview {
+    text-align: left;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 1000px;
+    margin-top: 20px;
+    white-space: nowrap;
+}
+.spinner {
+    width:50%;
+    margin: 0 auto;
+    border:solid;
+    text-align: center;
+}
+.teamBar {
+    text-align: center;
+    border-bottom: solid;
+    border-top: solid;
+    border-width: 2px;
+    vertical-align: top;
+    height:50px;
+    min-width:800px;
+}
+.overviewName {
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+}
+.returnButton {
+    border-radius: 10px;
+    margin-top:5px;
+    font-size: 20px;
+    float:left;
+    margin-left: 10px;
+}
+.deleteButton {
+    background-color: lightcoral;
+    border-radius: 10px;
+    margin-top:5px;
+    margin-right: 27px;
+    font-size: 20px;
+    float:right;
+}
+.viewer {
+    display: inline-block;
+    border:solid;
+    border-radius: 15px;
+    margin-left: 15px;
+    width:910px;
+    padding:10px;
+}
+
+.Btn1 {
+    margin-left: 100px;
+}
+.Btn2 {
+    float: right;
+    margin-right:100px;
+}
+

@@ -1,0 +1,14 @@
+.spinner {
+    width:50%;
+    margin: 0 auto;
+    border:solid;
+    text-align: center;
+}
+
+.prof {
+    width:90%;
+    padding:15px;
+    border:solid;
+    border-radius: 15px;
+    margin: 0 auto;
+}

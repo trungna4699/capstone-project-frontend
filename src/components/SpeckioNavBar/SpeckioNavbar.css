@@ -1,0 +1,50 @@
+.speckioNavbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    box-shadow: 0 1px 10px -6px rgba(0,0,0,.42), 0 1px 10px 0 rgba(0,0,0,.12), 0 4px 5px -2px rgba(0,0,0,.1);
+    /* box-shadow: 5px 10px 8px #202020; */
+}
+img {
+    border-radius: 0px;
+}
+.logoContainer {
+    width: 12%;
+    min-width: 200px;
+    margin-left: 18%;
+    margin-top: 11px;
+}
+
+.speckioLogo {
+    max-width:100%;
+    height: auto;
+}
+
+.userProfileContainer {
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+.userProfileContainer a:hover {
+    text-decoration: none;
+}
+
+.userProfile{
+    font-size: 23px;
+    margin-top: 10px;
+    color: #EE7903;
+    transition: 0.3s;
+}
+
+.userProfile:hover {
+    color: #FF5900;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+}
+
+#userIcon {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}

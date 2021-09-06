@@ -1,0 +1,123 @@
+.teams {
+    text-align: left;
+    width:70%;
+    margin-left:50px;
+}
+.Btn1 {
+    margin-left: 100px;
+}
+.Btn2 {
+    float: right;
+    margin-right:100px;
+}
+
+.message {
+    height: 170px;
+    position: relative;
+}
+.message > p {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.addTeam {
+    opacity: 100%;
+    transition: opacity .5s ease-in-out;
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.Leader > .teamView {
+    color: #F36301;
+}
+
+.Leader > .teamView:hover {
+    color: white;
+    background-color: #F1975A;
+}
+
+.teamView {
+    transition: background-color .5s ease-in-out;
+    vertical-align: top;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width:190px;
+    height:170px;
+    /* border:solid; */
+    border: 3px solid #F36100;
+    border-radius: 20px;
+    /* background-color: lightblue; */
+    background-color: #FFF2E9;
+    position: relative;
+}
+
+.teamView:hover {
+    background-color: #F1975A;
+}
+
+.teamLeader {
+    margin-top: 0px;
+    border:solid;
+    border-radius: 5px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width:100px;
+    height:17%;
+    background-color: lightsalmon;
+}
+
+.teamName {
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-40%);
+    transform: translateY(-40%);
+    width:100%;
+    text-align: center;
+
+}
+.desc {
+    transition: max-height .5s ease-in-out;
+    position: absolute;
+    padding-left: 5px;
+    width:100%;
+    bottom: 0px;
+    right:0px;
+    max-height:15%;
+    overflow: hidden;
+    border:solid;
+    border-bottom: unset;
+    border-radius: 15px;
+    background-color: lightseagreen;
+}
+
+.teamView:hover > .desc { 
+    max-height:45%;
+}
+
+.desc:after {
+    content: '...';
+    position: absolute;
+    top: 0; right: 0;
+
+    height: 1.5em;                   /* positioning it in line with the text - hacky */
+    padding: 0 .2em;
+    background-color: lightseagreen;           /* keep the same as parent - it cannot be transparent unfortunately */
+
+    opacity: 1;
+    transition: opacity 0s .5s;      /* will delay the appearance of the '...' until the expanding transition has finished */
+}
+.teamView:hover > .desc::after {
+    opacity: 0;
+    transition: opacity 0s 0s;       /* will apply the appearance of the '...' when hovered */
+}
+    
